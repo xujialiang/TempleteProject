@@ -4,7 +4,8 @@
 			"git":"https://modules.com/git",
 			"svn":"https://modules.com/svn",
 			"dependence":["",""],
-			"pod_dependence":["",""]
+			"pod_dependence":["",""],
+			"3rd":["",""]
 		}
 	}
 }
