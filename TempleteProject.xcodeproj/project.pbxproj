@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C413FD21B96D2D20016A276 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C413FD11B96D2D20016A276 /* BaseDAO.m */; };
+		6C413FD51B96D2DE0016A276 /* BaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C413FD41B96D2DE0016A276 /* BaseDTO.m */; };
+		6C413FD81B96D2E80016A276 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C413FD71B96D2E80016A276 /* BaseService.m */; };
+		6C413FDB1B96D3010016A276 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C413FDA1B96D3010016A276 /* BaseViewController.m */; };
+		6C413FDE1B96D3140016A276 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C413FDD1B96D3140016A276 /* BaseView.m */; };
 		6CFA218C1B95D0A100719E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA218B1B95D0A100719E6A /* main.m */; };
 		6CFA218F1B95D0A100719E6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA218E1B95D0A100719E6A /* AppDelegate.m */; };
 		6CFA21921B95D0A100719E6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA21911B95D0A100719E6A /* ViewController.m */; };
@@ -27,6 +32,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C413FCD1B96D2A50016A276 /* DomainConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainConfig.h; sourceTree = "<group>"; };
+		6C413FD01B96D2D20016A276 /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO.h; sourceTree = "<group>"; };
+		6C413FD11B96D2D20016A276 /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO.m; sourceTree = "<group>"; };
+		6C413FD31B96D2DE0016A276 /* BaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDTO.h; sourceTree = "<group>"; };
+		6C413FD41B96D2DE0016A276 /* BaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDTO.m; sourceTree = "<group>"; };
+		6C413FD61B96D2E80016A276 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		6C413FD71B96D2E80016A276 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		6C413FD91B96D3010016A276 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6C413FDA1B96D3010016A276 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6C413FDC1B96D3140016A276 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		6C413FDD1B96D3140016A276 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		6CFA21861B95D0A100719E6A /* TempleteProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempleteProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFA218A1B95D0A100719E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CFA218B1B95D0A100719E6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +86,7 @@
 		6C0B13FA1B96C570006B91BC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6C413FCD1B96D2A50016A276 /* DomainConfig.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -77,6 +94,8 @@
 		6C0B13FB1B96C570006B91BC /* DAO */ = {
 			isa = PBXGroup;
 			children = (
+				6C413FD01B96D2D20016A276 /* BaseDAO.h */,
+				6C413FD11B96D2D20016A276 /* BaseDAO.m */,
 			);
 			path = DAO;
 			sourceTree = "<group>";
@@ -84,6 +103,8 @@
 		6C0B13FC1B96C570006B91BC /* DTO */ = {
 			isa = PBXGroup;
 			children = (
+				6C413FD31B96D2DE0016A276 /* BaseDTO.h */,
+				6C413FD41B96D2DE0016A276 /* BaseDTO.m */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -91,6 +112,8 @@
 		6C0B13FD1B96C570006B91BC /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				6C413FD61B96D2E80016A276 /* BaseService.h */,
+				6C413FD71B96D2E80016A276 /* BaseService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -98,6 +121,8 @@
 		6C0B13FE1B96C570006B91BC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6C413FD91B96D3010016A276 /* BaseViewController.h */,
+				6C413FDA1B96D3010016A276 /* BaseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -105,6 +130,8 @@
 		6C0B13FF1B96C570006B91BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6C413FDC1B96D3140016A276 /* BaseView.h */,
+				6C413FDD1B96D3140016A276 /* BaseView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -275,9 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C413FD51B96D2DE0016A276 /* BaseDTO.m in Sources */,
 				6CFA21921B95D0A100719E6A /* ViewController.m in Sources */,
+				6C413FD81B96D2E80016A276 /* BaseService.m in Sources */,
+				6C413FDE1B96D3140016A276 /* BaseView.m in Sources */,
 				6CFA218F1B95D0A100719E6A /* AppDelegate.m in Sources */,
 				6CFA218C1B95D0A100719E6A /* main.m in Sources */,
+				6C413FDB1B96D3010016A276 /* BaseViewController.m in Sources */,
+				6C413FD21B96D2D20016A276 /* BaseDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
