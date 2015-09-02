@@ -60,6 +60,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C0B13F91B96C570006B91BC /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		6C0B13FA1B96C570006B91BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6C0B13FB1B96C570006B91BC /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		6C0B13FC1B96C570006B91BC /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		6C0B13FD1B96C570006B91BC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6C0B13FE1B96C570006B91BC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6C0B13FF1B96C570006B91BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6CFA217D1B95D0A100719E6A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,13 @@
 		6CFA21881B95D0A100719E6A /* TempleteProject */ = {
 			isa = PBXGroup;
 			children = (
+				6C0B13F91B96C570006B91BC /* 3rd */,
+				6C0B13FA1B96C570006B91BC /* Common */,
+				6C0B13FB1B96C570006B91BC /* DAO */,
+				6C0B13FC1B96C570006B91BC /* DTO */,
+				6C0B13FD1B96C570006B91BC /* Service */,
+				6C0B13FE1B96C570006B91BC /* ViewController */,
+				6C0B13FF1B96C570006B91BC /* Views */,
 				6CFA218D1B95D0A100719E6A /* AppDelegate.h */,
 				6CFA218E1B95D0A100719E6A /* AppDelegate.m */,
 				6CFA21901B95D0A100719E6A /* ViewController.h */,
@@ -418,6 +474,7 @@
 				6CFA21AB1B95D0A100719E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CFA21AC1B95D0A100719E6A /* Build configuration list for PBXNativeTarget "TempleteProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +483,7 @@
 				6CFA21AE1B95D0A100719E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
